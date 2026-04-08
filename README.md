@@ -3,6 +3,9 @@
 ## Overview
 This repo groups two analytics projects: statistical hypothesis testing on an insurance dataset and market basket analysis using transaction data. It is a good foundation repo for showing applied statistics and association rule mining.
 
+## Coursework Context
+This repository packages work originally completed as part of Western Governors University's (WGU) M.S. in Data Analytics program and reorganizes it into a public portfolio format. Screenshots extracted from the original written submissions are preserved in `assets/task2-report-extracts/` and `assets/task3-report-extracts/`.
+
 ## What It Shows
 - exploratory data analysis
 - statistical testing and interpretation
