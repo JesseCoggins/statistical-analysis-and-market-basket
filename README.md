@@ -19,6 +19,13 @@ This repository packages work originally completed as part of Western Governors 
 - `data/Megastore_Dataset_Task_3_3.csv`
 - `requirements.txt`
 
+## Results
+
+- One-way ANOVA on BMI by region found a statistically significant regional difference with `F = 39.4069` and `p = 0.0000`.
+- Mann-Whitney U testing for smoker status versus medical charges produced `p = 4.58e-129`, strongly supporting a meaningful cost difference between smokers and non-smokers.
+- The market basket analysis surfaced top Apriori rules with support of `0.011338`, perfect confidence of `1.0`, and lift of `88.2`.
+- The strongest retail rules linked themed children's gift items, making the repo a good example of translating association rules into bundling and cross-sell strategy.
+
 ## Selected Visuals
 
 ![Statistical testing report visual](assets/task2-report-extracts/report_image_01.png)
