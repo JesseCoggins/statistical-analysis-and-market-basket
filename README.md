@@ -45,6 +45,24 @@ Completed during my M.S. in Data Analytics at Western Governors University (WGU)
 - The market basket analysis surfaced top Apriori rules with support of `0.011338`, perfect confidence of `1.0`, and lift of `88.2`.
 - The strongest retail rules linked themed children's gift items, making the repo a good example of translating association rules into bundling and cross-sell strategy.
 
+The [original finance workflow diagram](assets/business-finance-flowchart.png) traces the input checks, grouping and workbook outputs in the business finance notebook.
+
+## Housing models on 7,000 properties
+
+| Question | Method | Saved result |
+|---|---|---|
+| How closely do square footage and school rating track sale price? | [Linear regression and residual diagnostics](notebooks/linear_regression.ipynb) | The reduced model explains 29.5% of the training-set price variance. |
+| Can property features distinguish luxury homes? | [Logistic regression](notebooks/logistic_regression.ipynb) | The model classified 67.21% of held-out properties correctly. |
+| How much information about price survives dimensionality reduction? | [Principal component regression](notebooks/pca_analysis.ipynb) | The component-based regression explains 62.9% of training-set price variance. |
+
+The two R² values describe fits to training data. The classification accuracy is a held-out result for a different target.
+
+[Browse all 15 housing figures](assets/housing/README.md), including the original model diagnostics and the luxury-classification plots.
+
+![Linear regression residual diagnostic](assets/housing/residuals.png)
+
+![Variance explained by each housing principal component](assets/housing/scree.png)
+
 ## Selected Visuals
 
 ![Statistical testing report visual](assets/task2-report-extracts/report_image_01.png)
