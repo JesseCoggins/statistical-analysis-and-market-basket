@@ -5,3 +5,5 @@ seaborn
 scipy
 mlxtend
 openpyxl
+scikit-learn
+statsmodels
