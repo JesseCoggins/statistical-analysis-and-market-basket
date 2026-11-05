@@ -1,11 +1,11 @@
-# Course data sources
+# Project data sources
 
-| File | Coursework and use |
+| File | Analysis |
 |---|---|
-| `business_financials.xlsx` | D598: state-level financial summaries and debt measures |
-| `employee_turnover.csv` | D599 Task 1: employee data profiling and cleaning |
-| `Health Insurance Dataset.xlsx` | D599 Task 2: insurance cleaning, exploration and statistical comparisons |
-| `megastore_transactions.csv` | D599 Task 3: transaction preparation and association rules |
-| `housing_data.csv` | D600: price regression, luxury classification and principal component regression |
+| `business_financials.xlsx` | State-level financial summaries and debt measures |
+| `employee_turnover.csv` | Employee data profiling and cleaning |
+| `Health Insurance Dataset.xlsx` | Insurance cleaning, exploration and statistical comparisons |
+| `megastore_transactions.csv` | Transaction preparation and association rules |
+| `housing_data.csv` | Price regression, luxury classification and principal component regression |
 
-These are the files used in the WGU coursework. The D599 scenario and dictionary documents identify the employee, insurance and Allias Megastore scenarios.
+These datasets were provided through WGU coursework. The accompanying data dictionaries describe the employee, insurance and Allias Megastore datasets.
