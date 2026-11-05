@@ -1,6 +1,6 @@
 # Applied statistics, housing models and retail market baskets
 
-**Which products are worth bundling?** I used Apriori to analyze 8,234 retail line items grouped into 441 baskets. One of the strongest combinations of children’s gift items had **100% confidence and a lift of 88.2**, yet the items appeared together in **only five baskets**. That makes the combination a candidate for a small merchandising trial. The data do not establish what a storewide offer would sell.
+**Which products are worth bundling?** I used Apriori to analyze 8,234 retail line items grouped into 441 baskets. One of the strongest combinations of children’s gift items had **100% confidence and a lift of 88.2**, yet the items appeared together in **only five baskets**. That makes the combination a candidate for a small merchandising trial. I have not tested a storewide offer, so I cannot estimate its sales from these baskets.
 
 [Open the market-basket analysis](notebooks/market_basket.ipynb) · [Browse the housing figures](assets/housing/README.md) · [Inspect the exported workbooks and data](outputs/)
 
@@ -25,9 +25,9 @@ The price models’ R² values describe fits to training data. The luxury model 
 
 ![Residuals versus fitted home prices in the linear regression](assets/housing/residuals.png)
 
-The [housing model report](docs/housing-model-results.md) explains model selection, evaluation metrics and residual diagnostics. The PCA workflow fits preprocessing before the split; its test error should be treated as exploratory.
+The [housing model report](docs/housing-model-results.md) explains model selection, evaluation metrics and residual diagnostics. I fitted the PCA preprocessing before the split, so I treat its test error as exploratory.
 
-## Reproduce an analysis
+## Run it yourself
 
 Install the [requirements](requirements.txt) in a Jupyter environment and open the notebook for the question that interests you. Use `notebooks/` as the working directory. The five source datasets are included, and the notebooks can be reviewed independently. [Source data](data/) · [Insurance report figures](assets/insurance-report-figures/) · [Market-basket report figures](assets/market-basket-report-figures/)
 
