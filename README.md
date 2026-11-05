@@ -29,6 +29,10 @@ The [housing model report](docs/housing-model-results.md) explains model selecti
 
 ## Reproduce an analysis
 
-Install the [requirements](requirements.txt) in a Jupyter environment and open the notebook for the question that interests you. Use `notebooks/` as the working directory. The five source datasets are included, and the notebooks can be reviewed independently. [Source data](data/) · [Insurance report figures](assets/task2-report-extracts/) · [Market-basket report figures](assets/task3-report-extracts/)
+Install the [requirements](requirements.txt) in a Jupyter environment and open the notebook for the question that interests you. Use `notebooks/` as the working directory. The five source datasets are included, and the notebooks can be reviewed independently. [Source data](data/) · [Insurance report figures](assets/insurance-report-figures/) · [Market-basket report figures](assets/market-basket-report-figures/)
+
+## Data and environment
+
+[Data origin and reuse notes](data/README.md). Install [requirements.txt](requirements.txt), which includes [the checked direct package versions](requirements-verified.txt). All code cells in the seven notebooks were rerun on Python 3.13.1 with the pinned direct dependencies. Data exports were generated in isolated validation copies. These are direct dependency pins, not a complete transitive lockfile.
 
 *WGU M.S. in Data Analytics coursework, D598 Analytics Programming, D599 Data Cleaning and Profiling, and D600 Statistical Data Mining.*

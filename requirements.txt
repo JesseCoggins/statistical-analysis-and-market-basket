@@ -1,9 +1,1 @@
-pandas
-numpy
-matplotlib
-seaborn
-scipy
-mlxtend
-openpyxl
-scikit-learn
-statsmodels
+-r requirements-verified.txt
