@@ -33,6 +33,7 @@ Install the [requirements](requirements.txt) in a Jupyter environment and open t
 
 ## Data and environment
 
-[Data origin and reuse notes](data/README.md). Install [requirements.txt](requirements.txt), which includes [the checked direct package versions](requirements-verified.txt). All code cells in the seven notebooks were rerun on Python 3.13.1 with the pinned direct dependencies. Data exports were generated in isolated validation copies. These are direct dependency pins, not a complete transitive lockfile.
+Data: WGU business, employee, insurance, housing and retail datasets; [source notes](data/README.md).  
+Install: `python -m pip install -r requirements.txt`; [environment details](requirements-verified.txt).
 
 *WGU M.S. in Data Analytics coursework, D598 Analytics Programming, D599 Data Cleaning and Profiling, and D600 Statistical Data Mining.*

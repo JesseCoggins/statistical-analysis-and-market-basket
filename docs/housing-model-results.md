@@ -1,6 +1,6 @@
 # Housing model results
 
-Jesse Coggins | WGU D600
+Jesse Coggins
 
 I evaluated three approaches on 7,000 properties: price regression using size and school rating, classification of luxury status using bedrooms and bathrooms, and regression on principal components. The price fits report training R²; luxury accuracy describes a separate held-out classification outcome.
 
