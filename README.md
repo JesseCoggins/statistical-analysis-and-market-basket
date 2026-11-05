@@ -8,7 +8,7 @@
 
 | Analysis | What I did and what a reviewer can check |
 |---|---|
-| [Employee turnover data quality](notebooks/employee_turnover_cleaning.ipynb) | Profiled and cleaned a 10,199-row source. The pipeline retained 4,464 records. Compare the transformations with the [cleaned CSV](outputs/employee_turnover_cleaned.csv) before using this sample for workforce analysis. |
+| [Employee turnover data quality](notebooks/employee_turnover_cleaning.ipynb) | Profiled and cleaned a 10,199-row source. The cleaning rules retained 4,464 records (43.8%). The notebook explains exclusions and their effect on the represented population. Compare the transformations with the [cleaned CSV](outputs/employee_turnover_cleaned.csv) before using this sample for workforce analysis. |
 | [Business finance by state](notebooks/business_financial_summary.ipynb) | Aggregated business records into 40 state summaries and three Excel outputs, including average debt-to-equity ratios. See the [workflow diagram](assets/business-finance-flowchart.png) and [state statistics](outputs/state_statistics.xlsx). |
 | [Health-insurance costs](notebooks/statistical_tests.ipynb) | Used one-way ANOVA to compare mean BMI across regions (F = 39.4069, p < 0.001). A Mann–Whitney U test found a difference in the distribution of charges by smoking status (p ≈ 4.59 × 10⁻¹²⁹). Neither test estimates the effect of an intervention. |
 | [Retail product combinations](notebooks/market_basket.ipynb) | Encoded each order as a set of products and ranked association rules. Lift compares co-occurrence with independence. The top rule’s 1.13% support shows how rarely the combination appeared. |
