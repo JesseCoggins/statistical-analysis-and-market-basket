@@ -17,7 +17,7 @@
 
 | Question | Implementation | Result |
 |---|---|---|
-| How much price variation does home size explain? | [Linear regression and residual checks](notebooks/linear_regression.ipynb) | The submitted final model uses square footage and school rating: 35.4% training R². The size-only comparison explains 29.5%. |
+| How much price variation does home size explain? | [Linear regression and residual checks](notebooks/linear_regression.ipynb) | The final model uses square footage and school rating: 35.4% training R². The size-only comparison explains 29.5%. |
 | Can property features distinguish luxury homes? | [Logistic regression](notebooks/logistic_regression.ipynb) | Correctly classified 67.21% of held-out properties. |
 | Can a smaller set of components describe prices? | [Principal component regression](notebooks/pca_analysis.ipynb) | The component-based model explained 62.9% of training-set price variance. |
 
@@ -25,7 +25,7 @@ The price models’ R² values describe fits to training data. The luxury model 
 
 ![Residuals versus fitted home prices in the linear regression](assets/housing/residuals.png)
 
-The [housing report — portfolio edition](docs/housing-models-portfolio-edition.md) reconciles the submitted report’s MSE transcription errors with reproduced notebook outputs and explains final-model selection. The PCA workflow fits preprocessing before the split; its test error should be treated as exploratory.
+The [housing model report](docs/housing-model-results.md) explains model selection, evaluation metrics and residual diagnostics. The PCA workflow fits preprocessing before the split; its test error should be treated as exploratory.
 
 ## Reproduce an analysis
 
